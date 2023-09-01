@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+body{
+    font-family: "Baloo+2" , sans-serif;
+    line-height: 1.8;
+    color:darkorchid  !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important ;
+    color:black !important;
+}
+/* h4:hover{
+    color: darkorange !important;
+} */
+.top-nav a{
+    color: purple !important;
+}
+.nav-item a{
+    color: black !important;
+}
+.navbar-brand{
+    color: black !important;
+}
+.owl-carousel img{
+     width: 100% !important; 
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    /* background-position: center; */
+}
+/* top-navbar */
+.top-nav{
+    background-color: darkorange !important;
+    width:100vw ;
+    height: 8vh;
+    padding-top:  5px ;
+    padding-bottom: 5px;
+
+}
+.top-nav p{
+    margin: 0 ;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+.top-nav-i,
+.top-nav-span{
+   vertical-align: middle;
+   display: inline-flex;
+}
+.social-links a{
+
+    width: 20px;
+    height:20px;
+    background-color: rgba(255, 255, 255, 0.29);
+    color: blueviolet !important;
+    font-size: 18px;
+    border-radius: 100%;
+    display: inline-flex;
+     align-items: center;
+     justify-content: center;
+}
+.social-links a :hover{
+    background-color: blueviolet !important;
+    color: rgb(255, 255, 255);
+     border-radius:100% ;
+}
+
+.navbar{
+    
+    box-shadow: 0px 6px 30px  rgba(158, 150, 150, 0.541);
+     
+}
+.navbar-brand{
+    font-weight: 550;
+    font-size: 35px;
+    
+}
+.navbar-brand span{
+    color: darkorange;
+    /* border-radius: 100%; */
+}
+section{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.navbar{
+    height: 10vh;
+}
+.nav-item a{
+    font-size: 16px ;
+}
+.navbar .navbar-nav .nav-item   {
+    color:  black !important;
+}
+.navbar .navbar-nav .nav-item   :hover{
+    color: darkorange !important;
+} 
+#slider1 h1 {
+
+        font-weight: 700 !important;
+}
+.slide1{
+    background: linear-gradient(rgba(8, 30, 46, 0.3), rgba(9, 32, 50, 0.4)) , url(../images/img4.jpg) ;
+
+}
+.slide2{
+    background: linear-gradient(rgba(8, 30, 46, 0.3), rgba(9, 32, 50, 0.4)) , url(../images/img1.jpg) ;
+
+}
+
+.owl-prev,
+.owl-next{
+
+    position: absolute;
+    top: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(91, 91, 91, 0.313) !important;
+    margin-top: -30px !important;
+    color: rgb(48, 6, 6)  !important;
+    font-weight: 700 !important;
+    font-size: 13px !important;
+    border-radius: 100px !important;
+
+}
+
+.owl-next{
+    right: 0;
+}
+.owl-prev{
+    left: 0;
+}
+ 
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: rgb(78, 68, 50) !important;
+    color: rgb(167, 160, 160) !important;
+}
+.style{
+    color: black;
+}
+
+.info-box {
+    display: flex !important;
+    align-content: flex-start !important;
+}
+.info-box img{
+    margin-right: 10px;
+}
+#milestone{
+    height : 35vh;
+    background: linear-gradient(rgba(255, 140, 0, 0.911), rgba(255, 140, 0, 0.7)) , url(../images/img2.jpg) ;
+
+}
+#milestone .display-5,
+#milestone p{
+     
+    color: rgba(0, 0, 0, 0.614) !important;
+}
+
+#milestone .display-5{
+       
+    font-weight: 750 !important;
+}
+#services p{
+    color: black;
+    margin: auto;
+    max-width: 500px;
+}
+
+#services h6{
+    font-weight: 400;
+    color: darkorange !important;
+}
+
+#services{
+    margin-bottom: 100px ;
+}
+.services-box{
+
+    padding:20px ;
+    box-shadow: 0px 6px 30px  rgba(158, 150, 150, 0.541) !important;
+    text-align: center  !important;
+    width: 60vh!important;
+}
+.services-box img{
+    width: 50vh !important;
+}
+#portfolio  h6{
+    font-weight: 400;
+    color: darkorange !important;
+}
+
+
+#portfolio  p{
+    
+    color: black !important;
+}
+
+
+.project{
+
+    color: black;
+    position: relative;
+}
+.project .overlay{
+    background:  linear-gradient(to bottom,rgba(35, 30, 49, 0.3),rgba(35, 24, 52, 0.2));
+     position: absolute;
+     width: 100%;
+     height: 260px;
+     bottom: 0;
+     left: 0;
+
+
+}
+
+.project .content{
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+    left: 5px;
+}
+.project h1,
+.project h6 {
+
+    color: rgb(242, 217, 217) !important;
+}
+.project h1{
+
+    
+     font-weight:700;
+     font-size: 34px;
+}
+
+.project h6::before{
+    content: '  ';
+    width: 25px !important ;
+    height:5px   !important;
+    background-color:black ;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-right:10px !important;
+}
+
+.project h6::after{
+    content: '  ';
+    width: 25px !important ;
+    height:5px   !important;
+    background-color:black ;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    margin-left:10px !important;
+}
+.project h6{
+    font-size:15px;
+    text-transform: uppercase;
+}
+
+#team h1{
+
+    color:  black !important ;
+}
+#team h6{
+    color: darkorange !important;
+    font-size:15px;
+    text-transform: uppercase;
+
+
+}
+#team  h1{
+
+    
+    font-weight:500;
+    font-size: 28px;
+}
+/* Team */
+/* .team-member h5{
+    text-align: center;
+} */
+.team-member  .img-wrapper{
+
+    position: relative;
+    overflow: hidden;
+}
+.team-member .overlay{
+
+    position: absolute;
+    top: -10%;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background-color: rgba(210, 129, 29, 0.559);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+.team-member .social-links{
+
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+
+.team-member :hover .overlay{
+
+    opacity: 1;  
+    top: 0; 
+
+}
+
+
+.team-member :hover .social-links{
+
+    opacity: 1;  
+   top: 50%;
+   margin-left: 45%;
+
+}
+.team-member h5{
+    margin-top: 20px;
+}
+
+/* Reviews */
+
+#review{
+    background: linear-gradient(rgba(4, 27, 44, 0.3), rgba(3, 17, 28, 0.4)) , url(../images/img4.jpg) ; 
+    margin-bottom: 40px;
+    height: 300px !important;
+    
+}
+.reviews{
+    max-width: 1000px;
+    margin: auto ;
+    text-align: center;
+}
+
+.reviews img{
+
+    width:  100px !important;
+    border-radius: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+.reviews h4{
+    color: white !important;
+    
+}
+
+
+.reviews  p{
+    color: black;
+   
+    
+}
+.reviews small{
+    color: darkorange;
+    
+    
+}
+.reviews p {
+
+    margin-top: 20px;
+}
+
+.owl-dot.active span{
+
+    background-color:darkorange !important ;
+}
+ /* blog posts */
+ #blog h6 {
+
+    color: darkorange !important;
+    text-align: center;
+ }
+ #blog h1 {
+     text-align: center;
+ }
+ #blog p{
+     color: black !important;
+     text-align: center;
+ }
+.bolg-posts{
+
+    position: relative;
+
+}
+.blog-posts .tag{
+
+    padding: 4px  12px;
+    background-color: darkorange !important;
+    color: white !important ;
+    border-radius: 100px;
+    top:20px;
+    left:20px;
+    
+}
+
+.blog-posts small{
+    color: goldenrod !important;
+    text-decoration: underline  ;
+    text-transform: uppercase;
+}
+
+.blog-posts h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog-posts img{
+    margin-bottom: 20px;
+}
+.blog-posts a{
+    font-weight: 600;
+}
+.blog-posts a{
+    color: black !important;
+    text-decoration: none !important;
+} 
+.blog-posts h4 :hover{
+    color: darkorange !important;
+    
+} 
+/* Footer */
+footer{
+    
+    color: black !important;
+    padding-bottom: 40px ;
+    text-align: center !important;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(74, 43, 5, 0.911), rgba(136, 76, 3, 0.7)) , url(../images/img2.jpg) ;
+}
+.footer .navbar-brand {
+    color: white !important;
+    display: inline-block;
+}
+.footer-top{
+    margin-bottom: 50px;
+}
+.footer-bottom{
+    margin-top: 40px;
+    border-top: 1px solid black;
+}
+
+footer .social-links a{
+
+    margin-left: 5px;
+    margin: 5px;
+
+}
